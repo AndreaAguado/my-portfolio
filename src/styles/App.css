@@ -1,0 +1,13 @@
+@import "./reset.css";
+
+.main {
+  height: 100vh;
+  background-color: red;
+  background-image: url("../images/watercolor_bg.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

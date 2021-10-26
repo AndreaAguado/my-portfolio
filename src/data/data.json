@@ -1,0 +1,59 @@
+[
+    {
+        "title": "Evaluación Intermedia Módulo 1",
+        "title_alt": "Creando Diversidad Digital",
+        "githubRepo": "https://github.com/AndreaAguado/modulo-1-evaluacion-intermedia-AndreaAguado",
+        "githubPages": "https://andreaaguado.github.io/modulo-1-evaluacion-intermedia-AndreaAguado/",
+        "status": "finished"
+    },
+    {
+        "title": "Evaluación Final Módulo 1",
+        "title_alt": "Anonymous Proxy",
+        "githubRepo": "https://github.com/AndreaAguado/modulo-1-evaluacion-final-AndreaAguado",
+        "githubPages": "https://andreaaguado.github.io/modulo-1-evaluacion-final-AndreaAguado/",
+        "status": "finished"
+    },
+    {
+        "title": "Proyecto Módulo 1",
+        "title_alt": " ",
+        "githubRepo": "https://github.com/AndreaAguado/project-promo-n-module-1-team-4",
+        "githubPages": "https://andreaaguado.github.io/project-promo-n-module-1-team-4/",
+        "status": "finished"
+    },
+    {
+        "title": "Evaluación Intermedia Módulo 2",
+        "title_alt": "Adivina el número",
+        "githubRepo": "https://github.com/AndreaAguado/modulo-2-evaluacion-intermedia-AndreaAguado",
+        "githubPages": "https://andreaaguado.github.io/modulo-2-evaluacion-intermedia-AndreaAguado/",
+        "status": "finished"
+    },
+    {
+        "title": "Evaluación Final Módulo 2",
+        "title_alt": "Buscador de series",
+        "githubRepo": "https://github.com/AndreaAguado/modulo-2-evaluacion-final-AndreaAguado",
+        "githubPages": "https://andreaaguado.github.io/modulo-2-evaluacion-final-AndreaAguado/",
+        "status": "finished"
+    },
+    {
+        "title": "Proyecto Módulo 2",
+        "title_alt": "Profile Cards",
+        "githubRepo": "https://github.com/AndreaAguado/project-promo-n-module-2-team-7",
+        "githubPages": "https://andreaaguado.github.io/project-promo-n-module-1-team-4/",
+        "status": "finished"
+    },
+    {
+        "title": "Evaluación Intermedia Módulo 3",
+        "title_alt": "Mis clubs favoritos",
+        "githubRepo": "https://github.com/AndreaAguado/modulo-3-evaluacion-intermedia-AndreaAguado",
+        "githubPages": "https://andreaaguado.github.io/modulo-3-evaluacion-intermedia-AndreaAguado/",
+        "status": "finished"
+    },
+    {
+        "title": "Evaluación Final Módulo 3",
+        "title_alt": "Wiki de Rick & Morty",
+        "githubRepo": "https://github.com/AndreaAguado/modulo-3-evaluacion-final-AndreaAguado",
+        "githubPages": "https://andreaaguado.github.io/modulo-3-evaluacion-final-AndreaAguado/",
+        "preview": "./thumbnailEvFinal3.JPG",
+        "status": "finished"
+    }
+]

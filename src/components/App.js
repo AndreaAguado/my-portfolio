@@ -2,9 +2,13 @@ import '../styles/App.css';
 
 function App() {
   return (
-    <div>
-      <h1>Hola Mundo!</h1>
-    </div>
+    <>
+      <header className="header"></header>
+      <main className="main">
+        <h1>Andrea Aguado Moleón</h1>
+      </main>
+      <footer className="footer"></footer>
+    </>
   );
 }
 
