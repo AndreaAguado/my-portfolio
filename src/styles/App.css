@@ -1,8 +1,7 @@
 @import "./reset.css";
 
-.main {
+.landing_page {
   height: 100vh;
-  background-color: red;
   background-image: url("../images/watercolor_bg.jpg");
   background-position: center;
   background-size: cover;
@@ -10,4 +9,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.main {
 }
