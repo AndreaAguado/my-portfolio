@@ -1,11 +1,10 @@
 import '../styles/App.css';
+import Landing from './Landing';
 
 function App() {
   return (
     <>
-      <section className="landing_page">
-        <h1>Andrea Aguado Moleón</h1>
-      </section>
+      <Landing></Landing>
       <header className="header"></header>
       <main className="main">
         <h1>Andrea Aguado Moleón</h1>
