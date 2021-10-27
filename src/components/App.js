@@ -1,4 +1,5 @@
 import '../styles/App.css';
+import Header from './Header';
 import Landing from './Landing';
 // import { Switch, Route, useRouteMatch } from 'react-router-dom';
 
@@ -10,16 +11,7 @@ function App() {
       <Landing></Landing>
       {/* </Route> */}
       {/* <Route path="/home"> */}
-      <header className="header">
-        <nav>
-          <ul>
-            <li><a href="#main">Sobre mi</a></li>
-            <li><a href="#about_me">Proyectos</a></li>
-            <li><a href=".">Contacto</a></li>
-            <li><a href=".">CV PDF</a></li>
-          </ul>
-        </nav>
-      </header>
+      <Header></Header>
       <main className="main">
         <section id="about_me" className="about_me">
           <h2>Sobre mi</h2>
