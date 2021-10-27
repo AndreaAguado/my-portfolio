@@ -8,7 +8,7 @@
             "html",
             "css"
         ],
-        "preview": "../data/thumbnailEvInter1.JPG",
+        "preview": "thumbnailEvInter1.JPG",
         "status": "finished"
     },
     {
@@ -20,6 +20,7 @@
             "html",
             "scss"
         ],
+        "preview": "",
         "status": "finished"
     },
     {
@@ -31,6 +32,7 @@
             "html",
             "scss"
         ],
+        "preview": "images/thumbnailProy1.JPG",
         "status": "finished"
     },
     {
@@ -43,6 +45,7 @@
             "css",
             "javascript"
         ],
+        "preview": "images/thumbnailEvInter2.PNG",
         "status": "finished"
     },
     {
@@ -55,6 +58,7 @@
             "scss",
             "javascript"
         ],
+        "preview": "",
         "status": "finished"
     },
     {
@@ -67,6 +71,7 @@
             "scss",
             "javascript"
         ],
+        "preview": "",
         "status": "finished"
     },
     {
@@ -79,6 +84,7 @@
             "scss",
             "react"
         ],
+        "preview": "",
         "status": "finished"
     },
     {
@@ -104,6 +110,7 @@
             "scss",
             "javascript"
         ],
+        "preview": "",
         "status": "finished"
     }
 ]

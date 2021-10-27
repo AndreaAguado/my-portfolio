@@ -8,11 +8,20 @@
   //   rgba(171, 221, 209, 1) 0%,
   //   rgba(217, 189, 215, 1) 100%
   // );
-  background: rgb(188, 246, 211);
+  // background: rgb(188, 246, 211);
+  // background: linear-gradient(
+  //   0deg,
+  //   rgba(188, 246, 211, 1) 0%,
+  //   rgba(212, 206, 251, 1) 100%
+  // );
+  // background-color: #aaddd1;
+  background: rgb(171, 221, 209);
   background: linear-gradient(
     0deg,
-    rgba(188, 246, 211, 1) 0%,
-    rgba(212, 206, 251, 1) 100%
+    rgba(171, 221, 209, 1) 10%,
+    rgba(217, 189, 215, 1) 83%
   );
-  background-color: #aaddd1;
+  .main {
+    min-height: 70%;
+  }
 }
