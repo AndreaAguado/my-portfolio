@@ -1,0 +1,22 @@
+.footer {
+  height: 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: mistyrose;
+  &_links_list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  &_link {
+    margin: 0 10px 0 10px;
+  }
+  &_small {
+    // font-family: "Amatic SC", cursive;
+    font-family: "Poiret One", cursive;
+    font-family: monospace;
+  }
+}
