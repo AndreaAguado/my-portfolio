@@ -12,8 +12,12 @@ function App() {
       {/* <Route path="/home"> */}
       <header className="header">
         <nav>
-          <a href="#main">Sobre mi</a>
-          <a href="#about_me">Proyectos</a>
+          <ul>
+            <li><a href="#main">Sobre mi</a></li>
+            <li><a href="#about_me">Proyectos</a></li>
+            <li><a href=".">Contacto</a></li>
+            <li><a href=".">CV PDF</a></li>
+          </ul>
         </nav>
       </header>
       <main className="main">
