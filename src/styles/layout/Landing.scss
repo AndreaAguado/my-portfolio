@@ -1,3 +1,5 @@
+@import "../core/reset.scss";
+
 .landing_page {
   height: 100vh;
   background-image: url("../../images/watercolor_bg.jpg");
@@ -7,4 +9,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  &_button {
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: cadetblue;
+    margin-top: 30px;
+  }
 }
