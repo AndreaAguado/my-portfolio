@@ -2,58 +2,107 @@
     {
         "title": "Evaluación Intermedia Módulo 1",
         "title_alt": "Creando Diversidad Digital",
-        "githubRepo": "https://github.com/AndreaAguado/modulo-1-evaluacion-intermedia-AndreaAguado",
-        "githubPages": "https://andreaaguado.github.io/modulo-1-evaluacion-intermedia-AndreaAguado/",
+        "githubRepo": "https://github.com/AndreaAguado/creando-diversidad-digital",
+        "pageLink": "https://andreaaguado.github.io/creando-diversidad-digital/",
+        "tags": [
+            "html",
+            "css"
+        ],
         "status": "finished"
     },
     {
         "title": "Evaluación Final Módulo 1",
         "title_alt": "Anonymous Proxy",
-        "githubRepo": "https://github.com/AndreaAguado/modulo-1-evaluacion-final-AndreaAguado",
-        "githubPages": "https://andreaaguado.github.io/modulo-1-evaluacion-final-AndreaAguado/",
+        "githubRepo": "https://github.com/AndreaAguado/anonymous-proxy",
+        "pageLink": "https://andreaaguado.github.io/anonymous-proxy/",
+        "tags": [
+            "html",
+            "scss"
+        ],
         "status": "finished"
     },
     {
         "title": "Proyecto Módulo 1",
-        "title_alt": " ",
-        "githubRepo": "https://github.com/AndreaAguado/project-promo-n-module-1-team-4",
-        "githubPages": "https://andreaaguado.github.io/project-promo-n-module-1-team-4/",
+        "title_alt": "Página de presentación",
+        "githubRepo": "https://github.com/AndreaAguado/front-end-devs-landing-page",
+        "pageLink": "https://andreaaguado.github.io/front-end-devs-landing-page/",
+        "tags": [
+            "html",
+            "scss"
+        ],
         "status": "finished"
     },
     {
         "title": "Evaluación Intermedia Módulo 2",
         "title_alt": "Adivina el número",
-        "githubRepo": "https://github.com/AndreaAguado/modulo-2-evaluacion-intermedia-AndreaAguado",
-        "githubPages": "https://andreaaguado.github.io/modulo-2-evaluacion-intermedia-AndreaAguado/",
+        "githubRepo": "https://github.com/AndreaAguado/adivina-el-numero",
+        "pageLink": "https://andreaaguado.github.io/adivina-el-numero/",
+        "tags": [
+            "html",
+            "css",
+            "javascript"
+        ],
         "status": "finished"
     },
     {
         "title": "Evaluación Final Módulo 2",
         "title_alt": "Buscador de series",
-        "githubRepo": "https://github.com/AndreaAguado/modulo-2-evaluacion-final-AndreaAguado",
-        "githubPages": "https://andreaaguado.github.io/modulo-2-evaluacion-final-AndreaAguado/",
+        "githubRepo": "https://github.com/AndreaAguado/buscador-de-series",
+        "pageLink": "https://andreaaguado.github.io/buscador-de-series/",
+        "tags": [
+            "html",
+            "scss",
+            "javascript"
+        ],
         "status": "finished"
     },
     {
         "title": "Proyecto Módulo 2",
-        "title_alt": "Profile Cards",
-        "githubRepo": "https://github.com/AndreaAguado/project-promo-n-module-2-team-7",
-        "githubPages": "https://andreaaguado.github.io/project-promo-n-module-1-team-4/",
+        "title_alt": "Awesome Profile Cards",
+        "githubRepo": "https://github.com/AndreaAguado/awesome-profile-cards",
+        "pageLink": "https://andreaaguado.github.io/awesome-profile-cards/",
+        "tags": [
+            "html",
+            "scss",
+            "javascript"
+        ],
         "status": "finished"
     },
     {
         "title": "Evaluación Intermedia Módulo 3",
         "title_alt": "Mis clubs favoritos",
-        "githubRepo": "https://github.com/AndreaAguado/modulo-3-evaluacion-intermedia-AndreaAguado",
-        "githubPages": "https://andreaaguado.github.io/modulo-3-evaluacion-intermedia-AndreaAguado/",
+        "githubRepo": "https://github.com/AndreaAguado/mis-clubs-favoritos",
+        "pageLink": "https://andreaaguado.github.io/mis-clubs-favoritos/",
+        "tags": [
+            "html",
+            "scss",
+            "react"
+        ],
         "status": "finished"
     },
     {
         "title": "Evaluación Final Módulo 3",
         "title_alt": "Wiki de Rick & Morty",
-        "githubRepo": "https://github.com/AndreaAguado/modulo-3-evaluacion-final-AndreaAguado",
-        "githubPages": "https://andreaaguado.github.io/modulo-3-evaluacion-final-AndreaAguado/",
+        "githubRepo": "https://github.com/AndreaAguado/wiki-rick-and-morty",
+        "pageLink": "https://andreaaguado.github.io/wiki-rick-and-morty/",
+        "tags": [
+            "html",
+            "scss",
+            "react"
+        ],
         "preview": "./thumbnailEvFinal3.JPG",
+        "status": "finished"
+    },
+    {
+        "title": "Proyecto Módulo 3",
+        "title_alt": "Awesome Profile Cards 2.0",
+        "githubRepo": "https://github.com/AndreaAguado/new-awesome-profile-cards",
+        "pageLink": "https://sqlito-johnson.herokuapp.com/",
+        "tags": [
+            "html",
+            "scss",
+            "javascript"
+        ],
         "status": "finished"
     }
 ]
