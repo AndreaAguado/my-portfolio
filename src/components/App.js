@@ -7,6 +7,26 @@ import Landing from './Landing';
 import projects from '../data/data.json';
 
 function App() {
+
+  const renderProjects = () => {
+    return projects.map((project, index) => {
+      return (
+        <li id={index} key={index}>
+          <div className="project_card">
+            <a href={project.pageLink} target="_blank" rel="noreferrer" title="Ir a la página">
+              <img src={project.preview} alt={project.title_alt} />
+              <a href={project.githubRepo} target="_blank" rel="noreferrer" title="Repositorio en Github"><i className="fab fa-github"></i>
+              </a>
+            </a>
+          </div>
+
+        </li>
+      )
+    })
+  }
+
+
+
   return (
     <>
       {/* <Switch> */}
@@ -23,6 +43,7 @@ function App() {
         <section id="projects" className="projects">
           <h2>Proyectos</h2>
           <ul>
+            {renderProjects()}
           </ul>
         </section>
       </main>
