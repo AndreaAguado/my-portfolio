@@ -1,14 +1,19 @@
 import '../styles/App.css';
 import Landing from './Landing';
+// import { Switch, Route, useRouteMatch } from 'react-router-dom';
 
 function App() {
   return (
     <>
+      {/* <Switch> */}
+      {/* <Route exact path="/"> */}
       <Landing></Landing>
+      {/* </Route> */}
+      {/* <Route path="/home"> */}
       <header className="header">
         <nav>
-          <a href="#">Sobre mi</a>
-          <a href="#">Proyectos</a>
+          <a href="#main">Sobre mi</a>
+          <a href="#about_me">Proyectos</a>
         </nav>
       </header>
       <main className="main">
@@ -19,11 +24,12 @@ function App() {
         <section id="projects" className="projects">
           <h2>Proyectos</h2>
           <ul>
-
           </ul>
         </section>
       </main>
       <footer className="footer"></footer>
+      {/* </Route> */}
+      {/* </Switch> */}
     </>
   );
 }
