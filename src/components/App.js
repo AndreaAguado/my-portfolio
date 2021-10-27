@@ -5,9 +5,23 @@ function App() {
   return (
     <>
       <Landing></Landing>
-      <header className="header"></header>
+      <header className="header">
+        <nav>
+          <a href="#">Sobre mi</a>
+          <a href="#">Proyectos</a>
+        </nav>
+      </header>
       <main className="main">
-        <h1>Andrea Aguado Moleón</h1>
+        <section id="about_me" className="about_me">
+          <h2>Sobre mi</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque perferendis ullam officiis dolorum quas, reprehenderit distinctio explicabo labore itaque qui, saepe sequi aperiam. Reiciendis eos repellendus ad dolore vitae omnis.</p>
+        </section>
+        <section id="projects" className="projects">
+          <h2>Proyectos</h2>
+          <ul>
+
+          </ul>
+        </section>
       </main>
       <footer className="footer"></footer>
     </>
