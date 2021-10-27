@@ -1,0 +1,19 @@
+.header {
+  height: 15%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: end;
+  padding: 30px;
+  font-size: 30px;
+  //   font-family: "Poiret One", cursive;
+  font-family: "Amatic SC", cursive;
+  //   background-color: mintcream;
+  &_links_list {
+    display: flex;
+    flex-direction: row;
+  }
+  &_link {
+    margin: 0 10px 0 10px;
+  }
+}
