@@ -6,6 +6,7 @@ import { Switch, Route } from 'react-router-dom';
 
 import { data } from '../data/data';
 import Main from './Main';
+import ProjectCard from './ProjectCard';
 
 function App() {
 
@@ -13,15 +14,7 @@ function App() {
     return data.map((project, index) => {
       return (
         <li id={index} key={index}>
-          <div className="project_card">
-            <a href={project.pageLink} target="_blank" rel="noreferrer" title="Ir a la página">
-              <img src={project.preview} alt={project.title_alt} />
-            </a>
-            <h3>{project.title_alt}</h3>
-            <a href={project.githubRepo} target="_blank" rel="noreferrer" title="Repositorio en Github"><i className="fab fa-github"></i>
-            </a>
-          </div>
-
+          <ProjectCard project={project}></ProjectCard>
         </li>
       )
     })
