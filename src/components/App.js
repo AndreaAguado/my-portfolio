@@ -16,6 +16,7 @@ function App() {
             <a href={project.pageLink} target="_blank" rel="noreferrer" title="Ir a la página">
               <img src={project.preview} alt={project.title_alt} />
             </a>
+            <h3>{project.title_alt}</h3>
             <a href={project.githubRepo} target="_blank" rel="noreferrer" title="Repositorio en Github"><i className="fab fa-github"></i>
             </a>
           </div>
