@@ -2,9 +2,8 @@ import '../styles/App.scss';
 import Footer from './Footer';
 import Header from './Header';
 import Landing from './Landing';
-import { Switch, Route, useRouteMatch } from 'react-router-dom';
+import { Switch, Route } from 'react-router-dom';
 
-// import projects from '../data/data';
 import { data } from '../data/data';
 
 function App() {
