@@ -5,6 +5,7 @@ import Landing from './Landing';
 import { Switch, Route } from 'react-router-dom';
 
 import { data } from '../data/data';
+import Main from './Main';
 
 function App() {
 
@@ -37,7 +38,7 @@ function App() {
         <Route path="/home">
           <section className="homepage">
             <Header></Header>
-            <main className="main">
+            {/* <main className="main">
               <section id="about_me" className="about_me">
                 <h2>Sobre mi</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque perferendis ullam officiis dolorum quas, reprehenderit distinctio explicabo labore itaque qui, saepe sequi aperiam. Reiciendis eos repellendus ad dolore vitae omnis.</p>
@@ -48,7 +49,8 @@ function App() {
                   {renderProjects()}
                 </ul>
               </section>
-            </main>
+            </main> */}
+            <Main renderProjects={renderProjects}></Main>
             <Footer></Footer>
           </section>
         </Route>
