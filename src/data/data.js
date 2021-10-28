@@ -1,4 +1,14 @@
-[
+import preview1 from './images/thumbnailEvInter1.JPG';
+import preview2 from './images/thumbnailEvFinal1.JPG';
+import preview3 from './images/thumbnailProy1.JPG';
+import preview4 from './images/thumbnailEvFinal2.JPG';
+import preview5 from './images/thumbnailEvInter2.JPG';
+import preview6 from './images/thumbnailProy2.JPG';
+import preview7 from './images/thumbnailEvInter3.JPG';
+import preview8 from './images/thumbnailEvFinal3.JPG';
+import preview9 from './images/thumbnailProy3_4.JPG';
+
+export const data = [
     {
         "title": "Evaluación Intermedia Módulo 1",
         "title_alt": "Creando Diversidad Digital",
@@ -8,7 +18,8 @@
             "html",
             "css"
         ],
-        "preview": "thumbnailEvInter1.JPG",
+        // "preview": "./images/thumbnailEvInter1.JPG",
+        "preview": preview1,
         "status": "finished"
     },
     {
@@ -20,7 +31,7 @@
             "html",
             "scss"
         ],
-        "preview": "",
+        "preview": preview2,
         "status": "finished"
     },
     {
@@ -32,7 +43,8 @@
             "html",
             "scss"
         ],
-        "preview": "images/thumbnailProy1.JPG",
+        // "preview": "images/thumbnailProy1.JPG",
+        "preview": preview3,
         "status": "finished"
     },
     {
@@ -45,7 +57,8 @@
             "css",
             "javascript"
         ],
-        "preview": "images/thumbnailEvInter2.PNG",
+        // "preview": "./images/thumbnailEvInter2.PNG",
+        "preview": preview4,
         "status": "finished"
     },
     {
@@ -58,7 +71,7 @@
             "scss",
             "javascript"
         ],
-        "preview": "",
+        "preview": preview5,
         "status": "finished"
     },
     {
@@ -71,7 +84,7 @@
             "scss",
             "javascript"
         ],
-        "preview": "",
+        "preview": preview6,
         "status": "finished"
     },
     {
@@ -84,7 +97,7 @@
             "scss",
             "react"
         ],
-        "preview": "",
+        "preview": preview7,
         "status": "finished"
     },
     {
@@ -97,7 +110,7 @@
             "scss",
             "react"
         ],
-        "preview": "./thumbnailEvFinal3.JPG",
+        "preview": preview8,
         "status": "finished"
     },
     {
@@ -110,7 +123,7 @@
             "scss",
             "javascript"
         ],
-        "preview": "",
+        "preview": preview9,
         "status": "finished"
     }
 ]

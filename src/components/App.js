@@ -4,19 +4,20 @@ import Header from './Header';
 import Landing from './Landing';
 import { Switch, Route, useRouteMatch } from 'react-router-dom';
 
-import projects from '../data/data.json';
+// import projects from '../data/data';
+import { data } from '../data/data';
 
 function App() {
 
   const renderProjects = () => {
-    return projects.map((project, index) => {
+    return data.map((project, index) => {
       return (
         <li id={index} key={index}>
           <div className="project_card">
             <a href={project.pageLink} target="_blank" rel="noreferrer" title="Ir a la página">
               <img src={project.preview} alt={project.title_alt} />
-              <a href={project.githubRepo} target="_blank" rel="noreferrer" title="Repositorio en Github"><i className="fab fa-github"></i>
-              </a>
+            </a>
+            <a href={project.githubRepo} target="_blank" rel="noreferrer" title="Repositorio en Github"><i className="fab fa-github"></i>
             </a>
           </div>
 
