@@ -9,9 +9,16 @@
       align-items: center;
       justify-content: center;
       flex-wrap: wrap;
+      @media all and (max-width: 375px) {
+        flex-wrap: nowrap;
+        flex-direction: column;
+      }
     }
   }
   .list_item {
     width: 30%;
+    @media all and (max-width: 375px) {
+      width: 100%;
+    }
   }
 }
