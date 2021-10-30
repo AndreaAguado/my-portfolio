@@ -6,22 +6,8 @@ import { Switch, Route } from 'react-router-dom';
 
 import { data } from '../data/data';
 import Main from './Main';
-import ProjectCard from './ProjectCard';
 
 function App() {
-
-  const renderProjects = () => {
-    return data.map((project, index) => {
-      return (
-        <li className="list_item" id={index} key={index}>
-          <ProjectCard project={project}></ProjectCard>
-        </li>
-      )
-    })
-  }
-
-
-
   return (
     <>
       <Switch>
@@ -31,7 +17,7 @@ function App() {
         <Route path="/home">
           <section className="homepage">
             <Header></Header>
-            <Main renderProjects={renderProjects}></Main>
+            <Main data={data}></Main>
             <Footer></Footer>
           </section>
         </Route>

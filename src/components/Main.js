@@ -1,5 +1,15 @@
 import '../styles/layout/Main.scss';
+import ProjectCard from './ProjectCard';
 const Main = (props) => {
+    const renderProjects = () => {
+        return props.data.map((project, index) => {
+            return (
+                <li className="list_item" id={index} key={index}>
+                    <ProjectCard project={project}></ProjectCard>
+                </li>
+            )
+        })
+    }
     return (
         <main className="main">
             <section id="about_me" className="about_me">
@@ -9,7 +19,7 @@ const Main = (props) => {
             <section id="projects" className="projects">
                 <h2>Proyectos</h2>
                 <ul className="projects_list">
-                    {props.renderProjects()}
+                    {renderProjects()}
                 </ul>
             </section>
         </main>
