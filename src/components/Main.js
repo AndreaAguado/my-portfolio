@@ -8,7 +8,7 @@ const Main = (props) => {
             </section>
             <section id="projects" className="projects">
                 <h2>Proyectos</h2>
-                <ul>
+                <ul className="projects_list">
                     {props.renderProjects()}
                 </ul>
             </section>

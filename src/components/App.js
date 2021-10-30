@@ -13,7 +13,7 @@ function App() {
   const renderProjects = () => {
     return data.map((project, index) => {
       return (
-        <li id={index} key={index}>
+        <li className="list_item" id={index} key={index}>
           <ProjectCard project={project}></ProjectCard>
         </li>
       )

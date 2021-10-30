@@ -1,3 +1,14 @@
 .main {
   min-height: 70%;
+  padding: 20px;
+  .projects {
+    &_list {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+  }
 }
