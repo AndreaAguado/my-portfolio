@@ -14,7 +14,7 @@ const Landing = () => {
 
             <div onMouseEnter={() => SetHover(true)}
                 onMouseLeave={() => SetHover(false)} className="button_sparkles">
-                <Link to="/home#about_me" className="landing_page_button" >Conóceme</Link>
+                <Link to="/home" className="landing_page_button" >Conóceme</Link>
                 <Sparkle
                     className="sparkles"
                     color={`${hover ? 'red' : 'transparent'}`}>
