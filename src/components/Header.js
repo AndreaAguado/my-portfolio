@@ -13,10 +13,13 @@ const Header = () => {
                         <HashLink className="header_link" to="/home#projects">Proyectos</HashLink>
                     </li>
                     <li>
-                        <HashLink className="header_link" to="/home#projects">Contacto</HashLink>
+                        <HashLink className="header_link" to="/home#tools">Tecnologías</HashLink>
                     </li>
                     <li>
-                        <HashLink className="header_link" to="/home#projects">CV PDF</HashLink>
+                        <HashLink className="header_link" to="/home#contact">Contacto</HashLink>
+                    </li>
+                    <li>
+                        <HashLink className="header_link" to="/home#cv_pdf">CV PDF</HashLink>
                     </li>
                 </ul>
             </nav>
