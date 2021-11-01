@@ -19,7 +19,7 @@ export const data = [
             "css"
         ],
         "preview": preview1,
-        "status": "finished"
+        "finished": true
     },
     {
         "title": "Evaluación Final Módulo 1",
@@ -31,7 +31,7 @@ export const data = [
             "scss"
         ],
         "preview": preview2,
-        "status": "finished"
+        "finished": true
     },
     {
         "title": "Proyecto Módulo 1",
@@ -43,7 +43,7 @@ export const data = [
             "scss"
         ],
         "preview": preview3,
-        "status": "finished"
+        "finished": true
     },
     {
         "title": "Evaluación Intermedia Módulo 2",
@@ -56,7 +56,7 @@ export const data = [
             "javascript"
         ],
         "preview": preview4,
-        "status": "finished"
+        "finished": true
     },
     {
         "title": "Evaluación Final Módulo 2",
@@ -69,7 +69,7 @@ export const data = [
             "javascript"
         ],
         "preview": preview5,
-        "status": "finished"
+        "finished": true
     },
     {
         "title": "Proyecto Módulo 2",
@@ -82,7 +82,7 @@ export const data = [
             "javascript"
         ],
         "preview": preview6,
-        "status": "finished"
+        "finished": true
     },
     {
         "title": "Evaluación Intermedia Módulo 3",
@@ -95,7 +95,7 @@ export const data = [
             "react"
         ],
         "preview": preview7,
-        "status": "finished"
+        "finished": true
     },
     {
         "title": "Evaluación Final Módulo 3",
@@ -108,7 +108,7 @@ export const data = [
             "react"
         ],
         "preview": preview8,
-        "status": "finished"
+        "finished": true
     },
     {
         "title": "Proyecto Módulo 3",
@@ -121,6 +121,6 @@ export const data = [
             "javascript"
         ],
         "preview": preview9,
-        "status": "finished"
+        "finished": true
     }
 ]
