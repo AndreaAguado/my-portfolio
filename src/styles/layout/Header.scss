@@ -9,11 +9,21 @@
   padding: 30px;
   font-size: 30px;
   font-family: $title_fonts2;
+  @media all and (max-width: 768px) {
+    font-size: 20px;
+    padding: 10px;
+  }
   &_links_list {
     display: flex;
     flex-direction: row;
+    @media all and (max-width: 768px) {
+      flex-direction: column;
+    }
   }
   &_link {
     margin: 0 10px 0 10px;
+    @media all and (max-width: 768px) {
+      margin: 10px 10px 10px 10px;
+    }
   }
 }
