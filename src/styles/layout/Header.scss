@@ -12,12 +12,14 @@
   @media all and (max-width: 768px) {
     font-size: 20px;
     padding: 10px;
+    align-items: flex-start;
   }
   &_links_list {
     display: flex;
     flex-direction: row;
     @media all and (max-width: 768px) {
       flex-direction: column;
+      display: none;
     }
   }
   &_link {
@@ -26,4 +28,23 @@
       margin: 10px 10px 10px 10px;
     }
   }
+  .header_nav_small {
+    .header_links_list {
+      display: flex;
+      flex-direction: column;
+      .header_link {
+        margin: 10px 10px 10px 10px;
+      }
+    }
+  }
+  .burger_menu {
+    visibility: hidden;
+    @media all and (max-width: 768px) {
+      visibility: visible;
+    }
+  }
+}
+
+.hidden {
+  display: none;
 }
