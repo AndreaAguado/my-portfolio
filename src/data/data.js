@@ -18,7 +18,6 @@ export const data = [
             "html",
             "css"
         ],
-        // "preview": "./images/thumbnailEvInter1.JPG",
         "preview": preview1,
         "status": "finished"
     },
@@ -43,7 +42,6 @@ export const data = [
             "html",
             "scss"
         ],
-        // "preview": "images/thumbnailProy1.JPG",
         "preview": preview3,
         "status": "finished"
     },
@@ -57,7 +55,6 @@ export const data = [
             "css",
             "javascript"
         ],
-        // "preview": "./images/thumbnailEvInter2.PNG",
         "preview": preview4,
         "status": "finished"
     },
@@ -117,7 +114,7 @@ export const data = [
         "title": "Proyecto Módulo 3",
         "title_alt": "Awesome Profile Cards 2.0",
         "githubRepo": "https://github.com/AndreaAguado/new-awesome-profile-cards",
-        "pageLink": "https://sqlito-johnson.herokuapp.com/",
+        "pageLink": "https://new-awesome-profile-cards.herokuapp.com/",
         "tags": [
             "html",
             "scss",
