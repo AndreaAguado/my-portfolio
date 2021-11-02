@@ -30,8 +30,8 @@ const Main = (props) => {
                     <i className="fab fa-npm tools_icon"></i>
                     <i className="fab fa-node tools_icon"></i>
                     <i className="fab fa-bootstrap tools_icon"></i>
-                    <box-icon type='logo' name='visual-studio' className="tools_icon"></box-icon>
-                    <box-icon type='solid' name='terminal' className="tools_icon"></box-icon>
+                    <i className='bx bxs-terminal tools_icon' ></i>
+                    <i class='bx bxl-visual-studio tools_icon'></i>
                     <i className="fab fa-slack tools_icon"></i>
                     <i className="fab fa-css3-alt tools_icon"></i>
                     <i className="fab fa-html5 tools_icon"></i>
