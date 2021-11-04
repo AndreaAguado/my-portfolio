@@ -15,9 +15,19 @@
   }
   &_button {
     padding: 10px 20px 10px 20px;
-    border-radius: 10px;
+    border-radius: 20px;
     border: none;
     background-color: cadetblue;
     margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
+    width: 140px;
+    height: 40px;
+    display: inline-block;
+    &:hover {
+      transform: scale(1.2);
+      background-color: hotpink;
+    }
   }
 }

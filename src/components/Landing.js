@@ -9,12 +9,13 @@ const Landing = () => {
 
     return (
         <section className="landing_page">
-            <h1>Hola, soy Andrea Aguado Moleón!</h1>
-            {/* <p>Te doy la bienvenida a mi porfolio</p> */}
-
+            <h1 className="landing_page_title">Hola, soy Andrea Aguado Moleón!</h1>
+            <p className="landing_page_subtitle">Te doy la bienvenida a mi porfolio</p>
             <div onMouseEnter={() => SetHover(true)}
                 onMouseLeave={() => SetHover(false)} className="button_sparkles">
-                <Link to="/home" className="landing_page_button" >Conóceme</Link>
+                <Link to="/home" className="landing_page_button">
+                    Conóceme
+                </Link>
                 <Sparkle
                     className="sparkles"
                     color={`${hover ? 'red' : 'transparent'}`}>
