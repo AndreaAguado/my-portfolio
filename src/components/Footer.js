@@ -9,7 +9,7 @@ const Footer = () => {
                     <li><a className="footer_link" href="https://github.com/AndreaAguado" target="_blank" rel="noreferrer" title="github.com/AndreaAguado"><i className="fab fa-github"></i></a></li>
                 </ul>
             </nav>
-            <small className="footer_small">&copy; Andrea Aguado 2021</small>
+            <small className="footer_small">Hecho con <span role="img" aria-label="emoji corazón" title="emoji corazón">&#10084;&#65039;</span> &copy; Andrea Aguado 2021</small>
         </footer>
     )
 }
