@@ -1,11 +1,11 @@
 import '../styles/layout/Main.scss';
 import ProjectCard from './ProjectCard';
-import { Document, Page } from 'react-pdf';
-import { useState } from 'react';
-import PDF from "../data/AndreaAguadoCVEspañol.pdf";
+// import { Document, Page } from 'react-pdf';
+// import { useState } from 'react';
+// import PDF from "../data/AndreaAguadoCVEspañol.pdf";
 const Main = (props) => {
-    const [numPages, setNumPages] = useState(null);
-    const [pageNumber, setPageNumber] = useState(1);
+    // const [numPages, setNumPages] = useState(null);
+    // const [pageNumber, setPageNumber] = useState(1);
     const renderProjects = () => {
         return props.data.map((project, index) => {
             return (
@@ -15,9 +15,9 @@ const Main = (props) => {
             )
         })
     }
-    function onDocumentLoadSuccess({ numPages }) {
-        setNumPages(numPages);
-    }
+    // function onDocumentLoadSuccess({ numPages }) {
+    //     setNumPages(numPages);
+    // }
     return (
         <main className="main">
             <section id="about_me" className="about_me">
@@ -60,10 +60,10 @@ const Main = (props) => {
             </section>
             <section id="cv_pdf" className="cv_pdf">
                 <h2 className="cv_pdf_title">CV en PDF</h2>
-                <Document file={PDF} onLoadSuccess={onDocumentLoadSuccess}>
+                {/* <Document file={PDF} onLoadSuccess={onDocumentLoadSuccess}>
                     <Page pageNumber={pageNumber} />
                 </Document>
-                <p>Page {pageNumber} of {numPages}</p>
+                <p>Page {pageNumber} of {numPages}</p> */}
             </section>
         </main>
     )
