@@ -96,6 +96,19 @@
       display: flex;
       flex-direction: column;
       align-items: center;
+      margin: 20px;
+    }
+    &_input {
+      padding: 0.6rem;
+      margin: 10px;
+      border-radius: 5px;
+      border: solid 1px #00ffa8;
+      font-family: monospace;
+    }
+    &_submit {
+      font-size: 1rem;
+      padding: 0.6rem 0.8rem;
+      border-radius: 5px;
     }
   }
   .cv_pdf {

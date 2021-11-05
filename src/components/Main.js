@@ -60,17 +60,17 @@ const Main = (props) => {
                 <form className="contact_form" action="https://formspree.io/f/{form_id}" method="post">
                     <span>
                         <span>
-                            <label for="name">Nombre *</label>
-                            <input name="name" id="name" type="text" placeholder="Nombre Apellidos"></input>
+                            <label className="contact_label" for="name">Nombre *</label>
+                            <input className="contact_input" name="name" id="name" type="text" placeholder="Nombre Apellidos" required></input>
                         </span>
                         <span>
-                            <label for="email">Email *</label>
-                            <input name="Email" id="email" type="email" placeholder="email@ejemplo.com"></input>
+                            <label className="contact_label" for="email">Email *</label>
+                            <input className="contact_input" name="Email" id="email" type="email" placeholder="email@ejemplo.com" required></input>
                         </span>
                     </span>
-                    <label htmlFor="comments">Mensaje * </label>
-                    <textarea id="comments" name="comments" rows="8" cols="80" placeholder="Escribe aquí tu mensaje..."></textarea>
-                    <button type="submit">Enviar</button>
+                    <label className="contact_label" htmlFor="comments">Mensaje * </label>
+                    <textarea className="contact_input" id="comments" name="comments" rows="8" cols="80" placeholder="Escribe aquí tu mensaje..." required></textarea>
+                    <button className="contact_submit" type="submit">Enviar</button>
                 </form>
             </section>
             <section id="cv_pdf" className="cv_pdf">
