@@ -57,6 +57,12 @@ const Main = (props) => {
             </section>
             <section id="contact" className="contact">
                 <h2 className="contact_title">Contacto</h2>
+                <form className="contact_form" action="https://formspree.io/f/{form_id}" method="post">
+                    <label for="email">Email</label>
+                    <input name="Email" id="email" type="email" placeholder="email@ejemplo.com"></input>
+                    <textarea id="comments" name="comments" rows="8" cols="80"></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
             </section>
             <section id="cv_pdf" className="cv_pdf">
                 <h2 className="cv_pdf_title">CV en PDF</h2>
