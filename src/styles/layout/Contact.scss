@@ -26,5 +26,11 @@
     font-size: 1rem;
     padding: 0.6rem 0.8rem;
     border-radius: 5px;
+    border: solid 2px #00ffaa;
+    background-color: #00ffaa;
+    &:hover {
+      font-weight: bold;
+      background-color: #00ffaac4;
+    }
   }
 }
