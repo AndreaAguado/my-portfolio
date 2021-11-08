@@ -8,4 +8,13 @@
     font-family: $title_fonts2;
     font-weight: bold;
   }
+  &_link {
+    margin: 10px;
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+  &_icon {
+    font-size: 3rem;
+  }
 }
