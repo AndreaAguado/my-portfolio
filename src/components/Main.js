@@ -1,5 +1,6 @@
 import '../styles/layout/Main.scss';
 import AboutMe from './AboutMe';
+import Contact from './Contact';
 import ProjectCard from './ProjectCard';
 import Tools from './Tools';
 // import { Document, Page } from 'react-pdf';
@@ -30,24 +31,8 @@ const Main = (props) => {
                 </ul>
             </section>
             <Tools></Tools>
-            <section id="contact" className="contact">
-                <h2 className="contact_title">Contacto</h2>
-                <form className="contact_form" action="https://formspree.io/f/mgerjbwv" method="post">
-                    <span>
-                        <span>
-                            <label className="contact_label" for="name">Nombre *</label>
-                            <input className="contact_input" name="name" id="name" type="text" placeholder="Nombre Apellidos" required></input>
-                        </span>
-                        <span>
-                            <label className="contact_label" for="email">Email *</label>
-                            <input className="contact_input" name="_replyto" id="email" type="email" placeholder="email@ejemplo.com" required></input>
-                        </span>
-                    </span>
-                    <label className="contact_label" htmlFor="comments">Mensaje * </label>
-                    <textarea className="contact_input" id="comments" name="comments" rows="8" cols="80" placeholder="Escribe aquí tu mensaje..." required></textarea>
-                    <button className="contact_submit" type="submit">Enviar</button>
-                </form>
-            </section>
+            <Contact></Contact>
+
             <section id="cv_pdf" className="cv_pdf">
                 <h2 className="cv_pdf_title">CV en PDF</h2>
                 <a href="https://drive.google.com/drive/folders/1sfdDxitw0VP0ki2lvhRHEt5J0osik0eQ?usp=sharing" target="_blank" rel='noreferrer' title="CV">
