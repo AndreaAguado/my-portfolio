@@ -3,22 +3,6 @@
 .main {
   min-height: 70%;
   padding: 20px;
-  .about_me {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    &_title {
-      font-size: 25px;
-      font-family: $title_fonts2;
-      font-weight: bold;
-    }
-    &_content {
-      font-family: "Zen Kaku Gothic Antique", sans-serif;
-      line-height: 1.5rem;
-      padding: 10px 0 25px 0;
-    }
-  }
   .projects {
     display: flex;
     flex-direction: column;
