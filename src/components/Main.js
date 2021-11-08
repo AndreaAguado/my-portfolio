@@ -3,12 +3,7 @@ import AboutMe from './AboutMe';
 import Contact from './Contact';
 import ProjectCard from './ProjectCard';
 import Tools from './Tools';
-// import { Document, Page } from 'react-pdf';
-// import { useState } from 'react';
-// import PDF from "../data/AndreaAguadoCVEspañol.pdf";
 const Main = (props) => {
-    // const [numPages, setNumPages] = useState(null);
-    // const [pageNumber, setPageNumber] = useState(1);
     const renderProjects = () => {
         return props.data.map((project, index) => {
             return (
@@ -18,9 +13,6 @@ const Main = (props) => {
             )
         })
     }
-    // function onDocumentLoadSuccess({ numPages }) {
-    //     setNumPages(numPages);
-    // }
     return (
         <main className="main">
             <AboutMe></AboutMe>
@@ -38,10 +30,6 @@ const Main = (props) => {
                 <a href="https://drive.google.com/drive/folders/1sfdDxitw0VP0ki2lvhRHEt5J0osik0eQ?usp=sharing" target="_blank" rel='noreferrer' title="CV">
                     <i class='bx bxs-file-pdf'></i>
                 </a>
-                {/* <Document file={PDF} onLoadSuccess={onDocumentLoadSuccess}>
-                    <Page pageNumber={pageNumber} />
-                </Document>
-                <p>Page {pageNumber} of {numPages}</p> */}
             </section>
         </main>
     )
