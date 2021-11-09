@@ -1,7 +1,9 @@
 import '../styles/layout/Header.scss';
 import { HashLink } from 'react-router-hash-link';
 import { useState } from 'react/cjs/react.development';
+
 const Header = () => {
+
     const [collapsed, setCollapsed] = useState(true);
     const toggleMenu = () => {
         if (collapsed) {
@@ -53,9 +55,8 @@ const Header = () => {
                     </li>
                 </ul>
             </nav>
-            {/* <button onClick={toggleMenu}> */}
             <i onClick={toggleMenu} className="fas fa-bars burger_menu"></i>
-            {/* </button> */}
+
         </header>
     )
 }
