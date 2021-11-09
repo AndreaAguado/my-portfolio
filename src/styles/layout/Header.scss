@@ -24,16 +24,30 @@
   }
   &_link {
     margin: 0 10px 0 10px;
+    font-weight: bold;
+    color: $links_color;
     @media all and (max-width: 768px) {
       margin: 10px 10px 10px 10px;
     }
+    &:hover {
+      border-bottom: $color_accents solid 2px;
+      color: lightpink;
+      text-shadow: 1px 1px 15px $color_accents;
+      @media all and (max-width: 768px) {
+        text-shadow: none;
+      }
+    }
   }
   .header_nav_small {
-    .header_links_list {
-      display: flex;
-      flex-direction: column;
-      .header_link {
-        margin: 10px 10px 10px 10px;
+    visibility: hidden;
+    @media all and (max-width: 768px) {
+      visibility: visible;
+      .header_links_list {
+        display: flex;
+        flex-direction: column;
+        .header_link {
+          margin: 10px 10px 10px 10px;
+        }
       }
     }
   }
