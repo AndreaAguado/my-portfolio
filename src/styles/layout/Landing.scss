@@ -14,9 +14,23 @@
   &_title {
     margin: 10px;
     font-size: 3rem;
+    @media all and (max-width: 640px) {
+      font-size: 2rem;
+    }
+  }
+  &_greetings {
+    @media all and (max-width: 640px) {
+      width: 100%;
+      display: block;
+      text-align: center;
+    }
   }
   &_subtitle {
     font-size: 2rem;
+    @media all and (max-width: 640px) {
+      font-size: 1.5rem;
+      margin: 10px;
+    }
   }
   .button_sparkles {
     position: relative;
@@ -31,12 +45,15 @@
     font-weight: bold;
     color: white;
     text-align: center;
-    width: 140px;
-    height: 40px;
+    // width: 140px;
+    // height: 40px;
     display: inline-block;
     &:hover {
       transform: scale(1.2);
       background-color: hotpink;
+    }
+    @media all and (max-width: 640px) {
+      font-size: 1.5rem;
     }
   }
 }
