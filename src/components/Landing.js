@@ -18,7 +18,7 @@ const Landing = () => {
                 </Link>
                 <Sparkle
                     className="sparkles"
-                    color={`${hover ? 'red' : 'transparent'}`}>
+                    color={`${hover ? 'random' : 'transparent'}`}>
                 </Sparkle>
             </div>
         </section >
