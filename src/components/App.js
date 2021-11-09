@@ -14,7 +14,7 @@ function App() {
         <Route exact path="/">
           <Landing></Landing>
         </Route>
-        <Route path="/home">
+        <Route exact path="/home">
           <section className="homepage">
             <Header></Header>
             <Main data={data}></Main>
