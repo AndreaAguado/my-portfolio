@@ -1,4 +1,5 @@
 @import "./core/reset.scss";
+@import "./core/variables.scss";
 
 .homepage {
   height: 100%;
@@ -47,4 +48,5 @@
   //   #045a98 75%,
   //   #053758 100%
   // );
+  color: $page_main_color;
 }
