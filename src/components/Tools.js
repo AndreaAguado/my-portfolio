@@ -12,7 +12,7 @@ const Tools = () => {
                 <li title="react"><i className="fab fa-react tools_icon"></i></li>
                 <li title="git"><i className="fab fa-git-alt tools_icon"></i></li>
                 <li title="terminal"><i className='bx bxs-terminal tools_icon' ></i></li>
-                <li title="visual studio"><i class='bx bxl-visual-studio tools_icon'></i></li>
+                <li title="visual studio"><i className='bx bxl-visual-studio tools_icon'></i></li>
                 <li title="slack"><i className="fab fa-slack tools_icon"></i></li>
                 <li title="gulp"><i className="fab fa-gulp tools_icon"></i></li>
                 <li title="node.js"><i className="fab fa-node tools_icon"></i></li>

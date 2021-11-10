@@ -6,11 +6,11 @@ const Contact = () => {
             <form className="contact_form" action="https://formspree.io/f/mgerjbwv" method="post">
                 <span>
                     <span>
-                        <label className="contact_label" for="name">Nombre <span className="contact_asterisk">*</span></label>
+                        <label className="contact_label" htmlFor="name">Nombre <span className="contact_asterisk">*</span></label>
                         <input className="contact_input" name="name" id="name" type="text" placeholder="Nombre Apellidos" required></input>
                     </span>
                     <span>
-                        <label className="contact_label" for="email">Email <span className="contact_asterisk">*</span></label>
+                        <label className="contact_label" htmlFor="email">Email <span className="contact_asterisk">*</span></label>
                         <input className="contact_input" name="_replyto" id="email" type="email" placeholder="email@ejemplo.com" required></input>
                     </span>
                 </span>

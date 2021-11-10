@@ -18,7 +18,7 @@ const Header = () => {
             <nav className="header_nav_big">
                 <ul className="header_links_list">
                     <li>
-                        <HashLink className="header_link" to="/home#about_me">Sobre mi</HashLink>
+                        <HashLink className="header_link" to="/home#about_me">Sobre miii</HashLink>
 
                     </li>
                     <li>
