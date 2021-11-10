@@ -1,6 +1,5 @@
 import '../styles/layout/Header.scss';
 import { HashLink } from 'react-router-hash-link';
-// import { useState } from 'react/cjs/react.development';
 import { useState } from 'react';
 
 const Header = () => {
