@@ -1,3 +1,4 @@
+@import "../core/variables.scss";
 .footer {
   height: 15%;
   display: flex;
@@ -5,15 +6,20 @@
   align-items: center;
   justify-content: space-evenly;
   background-color: mistyrose;
-  padding-top: 10px;
+  padding: 10px 0 5px 0;
   &_links_list {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    padding: 3px;
   }
   &_link {
     margin: 0 10px 0 10px;
+    color: $links_color;
+    &:hover {
+      color: $color_accents;
+    }
   }
   &_small {
     // font-family: "Amatic SC", cursive;

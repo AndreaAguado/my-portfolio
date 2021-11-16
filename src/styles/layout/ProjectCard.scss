@@ -1,3 +1,4 @@
+@import "../core/variables.scss";
 .project_card {
   display: flex;
   flex-direction: column;
@@ -5,10 +6,10 @@
   margin: 20px;
   &_img {
     width: 100%;
-    box-shadow: 2px 2px 6px 1px;
+    box-shadow: 2px 2px 6px 1px $links_color;
     margin-bottom: 6px;
     &:hover {
-      box-shadow: 2px 2px 6px 1px hotpink;
+      box-shadow: 2px 2px 6px 1px $color_accents;
       transform: scale(1.1);
     }
   }
@@ -18,9 +19,15 @@
     align-items: center;
     justify-content: space-evenly;
     width: 100%;
+    font-family: $text_font;
     font-size: 1.125rem;
     .github_repo_icon {
       font-size: 1.75rem;
+      color: $links_color;
+      &:hover {
+        color: $color_accents;
+        transform: scale(1.1);
+      }
     }
   }
 }

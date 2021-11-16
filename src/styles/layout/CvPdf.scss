@@ -10,8 +10,10 @@
   }
   &_link {
     margin: 10px;
+    color: $links_color;
     &:hover {
       transform: scale(1.1);
+      color: $color_accents;
     }
   }
   &_icon {
