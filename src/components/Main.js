@@ -3,6 +3,7 @@ import AboutMe from './AboutMe';
 import Contact from './Contact';
 import CvPdf from './CvPdf';
 import ProjectCard from './ProjectCard';
+import Projects from './Projects';
 import Tools from './Tools';
 const Main = (props) => {
     const renderProjects = () => {
@@ -17,12 +18,7 @@ const Main = (props) => {
     return (
         <main className="main">
             <AboutMe></AboutMe>
-            <section id="projects" className="projects">
-                <h2 className="projects_title">Proyectos</h2>
-                <ul className="projects_list">
-                    {renderProjects()}
-                </ul>
-            </section>
+            <Projects renderProjects={renderProjects}></Projects>
             <Tools></Tools>
             <Contact></Contact>
             <CvPdf></CvPdf>
