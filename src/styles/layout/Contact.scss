@@ -15,6 +15,9 @@
     flex-direction: column;
     align-items: center;
     margin: 20px;
+    @media all and (max-width: 768px) {
+      width: 85%;
+    }
   }
   &_input {
     padding: 0.6rem;
@@ -26,11 +29,20 @@
     margin-left: 10px;
     font-size: 1rem;
   }
+  &_inputs_section {
+    display: flex;
+    flex-wrap: wrap;
+  }
   &_textarea_section {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    .contact_input {
+      @media all and (max-width: 768px) {
+        width: 85%;
+      }
+    }
   }
   &_asterisk {
     font-weight: bold;

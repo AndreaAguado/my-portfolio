@@ -4,7 +4,7 @@ const Contact = () => {
         <section id="contact" className="contact">
             <h2 className="contact_title">Contacto</h2>
             <form className="contact_form" action="https://formspree.io/f/mgerjbwv" method="post">
-                <span>
+                <span className="contact_inputs_section">
                     <span>
                         <label className="contact_label" htmlFor="name">Nombre <span className="contact_asterisk">*</span></label>
                         <input className="contact_input" name="name" id="name" type="text" placeholder="Nombre Apellidos" required></input>
