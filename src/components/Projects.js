@@ -1,13 +1,13 @@
 import '../styles/layout/Projects.scss';
+import SectionWrapper from './SectionWrapper';
 
 const Projects = (props) => {
     return (
-        <section id="projects" className="projects">
-            <h2 className="projects_title">Proyectos</h2>
+        <SectionWrapper id="projects" classname="projects" section_name="Proyectos">
             <ul className="projects_list">
                 {props.renderProjects()}
             </ul>
-        </section>
+        </SectionWrapper>
     )
 }
 export default Projects;
