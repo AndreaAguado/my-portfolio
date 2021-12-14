@@ -8,6 +8,7 @@ import preview7 from './images/thumbnailEvInter3.JPG';
 import preview8 from './images/thumbnailEvFinal3.JPG';
 import preview9 from './images/thumbnailProy3_4.JPG';
 import preview10 from './images/thumbnailHangmanGame.JPG';
+import preview11 from './images/thumbnailNetflix.JPG';
 
 export const data = [
     {
@@ -140,6 +141,20 @@ export const data = [
             "react"
         ],
         "preview": preview10,
+        "finished": true
+    },
+    {
+        "title": "Netflix",
+        "title_alt": "Netflix",
+        "githubRepo": "https://github.com/AndreaAguado/netflix",
+        "pageLink": "https://andreaaguado.github.io/netflix/",
+        "tags": [
+            "html",
+            "scss",
+            "javascript",
+            "react"
+        ],
+        "preview": preview11,
         "finished": true
     }
 ]
