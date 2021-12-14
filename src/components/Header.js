@@ -15,21 +15,21 @@ const Header = () => {
     }
     return (
         <header className="header">
-            <nav className={collapsed ? "header_nav_big hidden" : "header_nav_big"}>
-                <ul className="header_links_list">
-                    <li>
+            <nav className={collapsed ? "header_nav hidden" : "header_nav"}>
+                <ul className="header_list">
+                    <li className="header_list_item">
                         <HashLink className="header_link" to="/home#about_me">Sobre mi</HashLink>
                     </li>
-                    <li>
+                    <li className="header_list_item">
                         <HashLink className="header_link" to="/home#projects">Proyectos</HashLink>
                     </li>
-                    <li>
+                    <li className="header_list_item">
                         <HashLink className="header_link" to="/home#tools">Tecnologías</HashLink>
                     </li>
-                    <li>
+                    <li className="header_list_item">
                         <HashLink className="header_link" to="/home#contact">Contacto</HashLink>
                     </li>
-                    <li>
+                    <li className="header_list_item">
                         <HashLink className="header_link" to="/home#cv_pdf">CV PDF</HashLink>
                     </li>
                 </ul>

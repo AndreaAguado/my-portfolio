@@ -9,43 +9,69 @@
   padding: 30px;
   font-size: 1.875rem;
   font-family: $title_fonts2;
+  background-color: $page_main_color;
   @media all and (max-width: 768px) {
     font-size: 1.25rem;
     padding: 10px;
     align-items: flex-start;
+    min-height: 10vh;
+    height: fit-content;
   }
-  &_links_list {
+  &_nav {
+    @media all and (max-width: 768px) {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      padding: 25px 0 25px 0;
+      // position: absolute;
+      // width: 100%;
+      // opacity: 0.9;
+    }
+  }
+  &_list {
     display: flex;
     flex-direction: row;
     @media all and (max-width: 768px) {
       flex-direction: column;
-      // display: none;
+    }
+    &_item {
+      @media all and (max-width: 768px) {
+        width: 100%;
+      }
     }
   }
+
   &_link {
     margin: 0 10px 0 10px;
     font-weight: bold;
     color: $header_links_color;
     @media all and (max-width: 768px) {
-      margin: 10px 10px 10px 10px;
+      margin: 0;
+      padding: 20px;
+      display: block;
     }
     &:hover {
       border-bottom: $color_accents solid 2px;
       color: lightpink;
       text-shadow: 1px 1px 15px $color_accents;
-      @media all and (max-width: 768px) {
-        text-shadow: none;
-      }
     }
   }
   .burger_menu {
     visibility: hidden;
     @media all and (max-width: 768px) {
       visibility: visible;
+      color: $header_links_color;
+      position: absolute;
+      top: 20px;
+      right: 20px;
     }
   }
 }
 
 .hidden {
-  display: none;
+  @media all and (max-width: 768px) {
+    display: none;
+  }
 }
