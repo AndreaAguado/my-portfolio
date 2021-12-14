@@ -7,6 +7,7 @@ import preview6 from './images/thumbnailProy2.JPG';
 import preview7 from './images/thumbnailEvInter3.JPG';
 import preview8 from './images/thumbnailEvFinal3.JPG';
 import preview9 from './images/thumbnailProy3_4.JPG';
+import preview10 from './images/thumbnailHangmanGame.JPG';
 
 export const data = [
     {
@@ -118,9 +119,27 @@ export const data = [
         "tags": [
             "html",
             "scss",
-            "javascript"
+            "javascript",
+            "react",
+            "node.js",
+            "express.js",
+            "sqlite"
         ],
         "preview": preview9,
+        "finished": true
+    },
+    {
+        "title": "Proyecto pair programming en React.js",
+        "title_alt": "Juego del ahorcado",
+        "githubRepo": "https://github.com/AndreaAguado/hangman-game",
+        "pageLink": "https://andreaaguado.github.io/hangman-game/",
+        "tags": [
+            "html",
+            "scss",
+            "javascript",
+            "react"
+        ],
+        "preview": preview10,
         "finished": true
     }
 ]
