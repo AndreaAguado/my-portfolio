@@ -1,8 +1,8 @@
 import '../styles/layout/Contact.scss';
+import SectionWrapper from './SectionWrapper';
 const Contact = () => {
     return (
-        <section id="contact" className="contact">
-            <h2 className="contact_title">Contacto</h2>
+        <SectionWrapper id="contact" classname="contact" section_name="Contacto">
             <form className="contact_form" action="https://formspree.io/f/mgerjbwv" method="post">
                 <span className="contact_inputs_section">
                     <span>
@@ -20,7 +20,7 @@ const Contact = () => {
                 </span>
                 <button className="contact_submit" type="submit">Enviar</button>
             </form>
-        </section>
+        </SectionWrapper>
     )
 }
 export default Contact;

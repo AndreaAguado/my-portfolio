@@ -1,14 +1,6 @@
 @import "../core/variables.scss";
 
 .contact {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  &_title {
-    font-size: 25px;
-    font-family: $title_fonts2;
-    font-weight: bold;
-  }
   &_form {
     display: flex;
     flex-direction: column;
