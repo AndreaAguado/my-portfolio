@@ -1,7 +1,7 @@
 @import "../core/variables.scss";
 .about_me {
   &_content {
-    font-family: "Zen Kaku Gothic Antique", sans-serif;
+    font-family: $text_font;
     line-height: 1.5rem;
     padding: 10px 0 25px 0;
   }
