@@ -1,8 +1,8 @@
 import '../styles/layout/Tools.scss';
+import SectionWrapper from './SectionWrapper';
 const Tools = () => {
     return (
-        <section id="tools" className="tools">
-            <h2 className="tools_title">Tecnologías</h2>
+        <SectionWrapper id="tools" classname="tools" section_name="Tecnologías">
             <ul className="tools_list">
                 <li title="html"><i className="fab fa-html5 tools_icon"></i></li>
                 <li title="css"><i className="fab fa-css3-alt tools_icon"></i></li>
@@ -20,7 +20,7 @@ const Tools = () => {
                 <li title="base de datos"><i className="fas fa-database tools_icon"></i></li>
                 <li title="npm"><i className="fab fa-npm tools_icon"></i></li>
             </ul>
-        </section>
+        </SectionWrapper>
     )
 }
 export default Tools;
