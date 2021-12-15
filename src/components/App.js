@@ -17,7 +17,7 @@ function App() {
         <Route path="/home">
           <section className="homepage">
             <Header></Header>
-            <Main data={data}></Main>
+            {/* <Main data={data}></Main> */}
             <Footer></Footer>
           </section>
         </Route>
