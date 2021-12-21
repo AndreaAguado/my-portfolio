@@ -16,7 +16,7 @@ const ProjectCard = (props) => {
                 {renderTags()}
             </ul>
             <div className="project_card_info">
-                <h3>{props.project.title_alt}</h3>
+                <h3 className="project_card_info-title">{props.project.title_alt}</h3>
 
                 <a href={props.project.githubRepo} target="_blank" rel="noreferrer" title="Repositorio en Github">
                     <i className="fab fa-github github_repo_icon"></i>
