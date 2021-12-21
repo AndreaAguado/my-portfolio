@@ -30,4 +30,22 @@
       }
     }
   }
+  &_tags {
+    padding: 5px 7px;
+    border: solid 2px $color_accents;
+    border-radius: 15px;
+    margin: 3px;
+    color: inherit;
+    background-color: #00ffaac4;
+    text-transform: capitalize;
+    font-family: $text_font;
+    &:hover {
+      font-weight: bold;
+    }
+    &-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+    }
+  }
 }

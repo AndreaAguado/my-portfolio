@@ -18,8 +18,8 @@ export const data = [
         "githubRepo": "https://github.com/AndreaAguado/creando-diversidad-digital",
         "pageLink": "https://andreaaguado.github.io/creando-diversidad-digital/",
         "tags": [
-            "html",
-            "css"
+            "HTML",
+            "CSS"
         ],
         "preview": preview1,
         "finished": true
@@ -31,8 +31,8 @@ export const data = [
         "githubRepo": "https://github.com/AndreaAguado/anonymous-proxy",
         "pageLink": "https://andreaaguado.github.io/anonymous-proxy/",
         "tags": [
-            "html",
-            "scss"
+            "HTML",
+            "SCSS"
         ],
         "preview": preview2,
         "finished": true
@@ -44,8 +44,8 @@ export const data = [
         "githubRepo": "https://github.com/AndreaAguado/front-end-devs-landing-page",
         "pageLink": "https://andreaaguado.github.io/front-end-devs-landing-page/",
         "tags": [
-            "html",
-            "scss"
+            "HTML",
+            "SCSS"
         ],
         "preview": preview3,
         "finished": true
@@ -57,9 +57,9 @@ export const data = [
         "githubRepo": "https://github.com/AndreaAguado/adivina-el-numero",
         "pageLink": "https://andreaaguado.github.io/adivina-el-numero/",
         "tags": [
-            "html",
-            "css",
-            "javascript"
+            "HTML",
+            "CSS",
+            "Javascript"
         ],
         "preview": preview4,
         "finished": true
@@ -71,9 +71,9 @@ export const data = [
         "githubRepo": "https://github.com/AndreaAguado/buscador-de-series",
         "pageLink": "https://andreaaguado.github.io/buscador-de-series/",
         "tags": [
-            "html",
-            "scss",
-            "javascript"
+            "HTML",
+            "SCSS",
+            "Javascript"
         ],
         "preview": preview5,
         "finished": true
@@ -85,9 +85,9 @@ export const data = [
         "githubRepo": "https://github.com/AndreaAguado/awesome-profile-cards",
         "pageLink": "https://andreaaguado.github.io/awesome-profile-cards/",
         "tags": [
-            "html",
-            "scss",
-            "javascript"
+            "HTML",
+            "SCSS",
+            "Javascript"
         ],
         "preview": preview6,
         "finished": true
@@ -99,9 +99,9 @@ export const data = [
         "githubRepo": "https://github.com/AndreaAguado/mis-clubs-favoritos",
         "pageLink": "https://andreaaguado.github.io/mis-clubs-favoritos/",
         "tags": [
-            "html",
-            "scss",
-            "react"
+            "HTML",
+            "SCSS",
+            "React"
         ],
         "preview": preview7,
         "finished": true
@@ -113,9 +113,9 @@ export const data = [
         "githubRepo": "https://github.com/AndreaAguado/wiki-rick-and-morty",
         "pageLink": "https://andreaaguado.github.io/wiki-rick-and-morty/",
         "tags": [
-            "html",
-            "scss",
-            "react"
+            "HTML",
+            "SCSS",
+            "React"
         ],
         "preview": preview8,
         "finished": true
@@ -127,10 +127,10 @@ export const data = [
         "githubRepo": "https://github.com/AndreaAguado/new-awesome-profile-cards",
         "pageLink": "https://new-awesome-profile-cards.herokuapp.com/",
         "tags": [
-            "html",
-            "scss",
-            "javascript",
-            "react",
+            "HTML",
+            "SCSS",
+            "Javascript",
+            "React",
             "node.js",
             "express.js",
             "sqlite"
@@ -145,10 +145,10 @@ export const data = [
         "githubRepo": "https://github.com/AndreaAguado/hangman-game",
         "pageLink": "https://andreaaguado.github.io/hangman-game/",
         "tags": [
-            "html",
-            "scss",
-            "javascript",
-            "react"
+            "HTML",
+            "SCSS",
+            "Javascript",
+            "React"
         ],
         "preview": preview10,
         "finished": true
@@ -160,10 +160,10 @@ export const data = [
         "githubRepo": "https://github.com/AndreaAguado/netflix",
         "pageLink": "https://andreaaguado.github.io/netflix/",
         "tags": [
-            "html",
-            "scss",
-            "javascript",
-            "react"
+            "HTML",
+            "SCSS",
+            "Javascript",
+            "React"
         ],
         "preview": preview11,
         "finished": true

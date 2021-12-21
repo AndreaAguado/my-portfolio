@@ -3,7 +3,7 @@ const ProjectCard = (props) => {
     const renderTags = () => {
         return props.project.tags.map((tag, index) => {
             return (
-                <li className='project_tag' id={index} key={index}>{tag}</li>
+                <li className='project_card_tags' id={index} key={index}>{tag}</li>
             )
         })
     }
