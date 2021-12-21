@@ -44,8 +44,8 @@
     font-size: 1rem;
     padding: 0.6rem 0.8rem;
     border-radius: 5px;
-    border: solid 2px #00ffaa;
-    background-color: #00ffaa;
+    border: solid 2px $form_secondary_color;
+    background-color: $form_secondary_color;
     font-family: inherit;
     margin-top: 15px;
     @media all and (max-width: 768px) {
@@ -53,7 +53,7 @@
     }
     &:hover {
       font-weight: bold;
-      background-color: #00ffaac4;
+      background-color: $form_primary_color;
     }
   }
 }
