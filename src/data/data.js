@@ -12,6 +12,7 @@ import preview11 from './images/thumbnailNetflix.JPG';
 
 export const data = [
     {
+        "id": 1,
         "title": "Evaluación Intermedia Módulo 1",
         "title_alt": "Creando Diversidad Digital",
         "githubRepo": "https://github.com/AndreaAguado/creando-diversidad-digital",
@@ -24,6 +25,7 @@ export const data = [
         "finished": true
     },
     {
+        "id": 2,
         "title": "Evaluación Final Módulo 1",
         "title_alt": "Anonymous Proxy",
         "githubRepo": "https://github.com/AndreaAguado/anonymous-proxy",
@@ -36,6 +38,7 @@ export const data = [
         "finished": true
     },
     {
+        "id": 3,
         "title": "Proyecto Módulo 1",
         "title_alt": "Página de presentación",
         "githubRepo": "https://github.com/AndreaAguado/front-end-devs-landing-page",
@@ -48,6 +51,7 @@ export const data = [
         "finished": true
     },
     {
+        "id": 4,
         "title": "Evaluación Intermedia Módulo 2",
         "title_alt": "Adivina el número",
         "githubRepo": "https://github.com/AndreaAguado/adivina-el-numero",
@@ -61,6 +65,7 @@ export const data = [
         "finished": true
     },
     {
+        "id": 5,
         "title": "Evaluación Final Módulo 2",
         "title_alt": "Buscador de series",
         "githubRepo": "https://github.com/AndreaAguado/buscador-de-series",
@@ -74,6 +79,7 @@ export const data = [
         "finished": true
     },
     {
+        "id": 6,
         "title": "Proyecto Módulo 2",
         "title_alt": "Awesome Profile Cards",
         "githubRepo": "https://github.com/AndreaAguado/awesome-profile-cards",
@@ -87,6 +93,7 @@ export const data = [
         "finished": true
     },
     {
+        "id": 7,
         "title": "Evaluación Intermedia Módulo 3",
         "title_alt": "Mis clubs favoritos",
         "githubRepo": "https://github.com/AndreaAguado/mis-clubs-favoritos",
@@ -100,6 +107,7 @@ export const data = [
         "finished": true
     },
     {
+        "id": 8,
         "title": "Evaluación Final Módulo 3",
         "title_alt": "Wiki de Rick & Morty",
         "githubRepo": "https://github.com/AndreaAguado/wiki-rick-and-morty",
@@ -113,6 +121,7 @@ export const data = [
         "finished": true
     },
     {
+        "id": 9,
         "title": "Proyecto Módulo 3",
         "title_alt": "Awesome Profile Cards 2.0",
         "githubRepo": "https://github.com/AndreaAguado/new-awesome-profile-cards",
@@ -130,6 +139,7 @@ export const data = [
         "finished": true
     },
     {
+        "id": 10,
         "title": "Proyecto pair programming en React.js",
         "title_alt": "Juego del ahorcado",
         "githubRepo": "https://github.com/AndreaAguado/hangman-game",
@@ -144,6 +154,7 @@ export const data = [
         "finished": true
     },
     {
+        "id": 11,
         "title": "Netflix",
         "title_alt": "Netflix",
         "githubRepo": "https://github.com/AndreaAguado/netflix",
