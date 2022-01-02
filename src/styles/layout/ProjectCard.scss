@@ -23,10 +23,25 @@
     font-size: 1.125rem;
     &-title {
       font-weight: bold;
+      text-align: center;
+    }
+    &_links_container {
+      width: fit-content;
+      display: flex;
+    }
+    .page_link_icon {
+      font-size: 1.7rem;
+      color: $links_color;
+      margin: 5px;
+      &:hover {
+        color: $color_accents;
+        transform: scale(1.1);
+      }
     }
     .github_repo_icon {
       font-size: 1.75rem;
       color: $links_color;
+      margin: 5px;
       &:hover {
         color: $color_accents;
         transform: scale(1.1);
