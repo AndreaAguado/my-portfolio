@@ -9,6 +9,7 @@ import preview8 from './images/thumbnailEvFinal3.JPG';
 import preview9 from './images/thumbnailProy3_4.JPG';
 import preview10 from './images/thumbnailHangmanGame.JPG';
 import preview11 from './images/thumbnailNetflix.JPG';
+import preview12 from './images/thumbnailHNY.JPG';
 
 export const data = [
     {
@@ -166,6 +167,20 @@ export const data = [
             "React"
         ],
         "preview": preview11,
+        "finished": true
+    },
+    {
+        "id": 12,
+        "title": "Feliz Año Nuevo",
+        "title_alt": "Feliz Año Nuevo",
+        "githubRepo": "https://github.com/AndreaAguado/happy-new-year",
+        "pageLink": "https://andreaaguado.github.io/happy-new-year/",
+        "tags": [
+            "HTML",
+            "SCSS",
+            "Javascript",
+        ],
+        "preview": preview12,
         "finished": true
     }
 ]
