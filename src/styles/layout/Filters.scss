@@ -4,10 +4,19 @@
   margin: 30px;
   font-family: "Zen Kaku Gothic Antique", sans-serif;
   font-weight: bold;
+  display: flex;
+  &_icon {
+    &:hover {
+      filter: drop-shadow(1px 1px 6px black);
+    }
+  }
 }
 label {
   padding: 10px;
   &:hover {
     color: white;
   }
+}
+.hidden {
+  display: none;
 }
