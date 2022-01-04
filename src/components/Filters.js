@@ -3,8 +3,9 @@ import '../styles/layout/Filters.scss';
 const Filters = (props) => {
 
     const handleChange = (ev) => {
-        console.log(ev.target.value);
-        props.handleSearch(ev.target.value);
+        console.log(ev.target.id);
+        console.log(ev.target.checked);
+        props.handleSearch(ev.target.id, ev.target.checked);
     }
     return (
         <form className="projects_filter">
