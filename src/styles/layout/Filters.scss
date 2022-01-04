@@ -1,0 +1,13 @@
+@import "../core/variables.scss";
+
+.projects_filter {
+  margin: 30px;
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
+  font-weight: bold;
+}
+label {
+  padding: 10px;
+  &:hover {
+    color: white;
+  }
+}
