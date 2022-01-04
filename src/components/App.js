@@ -11,8 +11,8 @@ import { data } from '../data/data';
 
 function App() {
   const [search, setSearch] = useState({
-    html: false,
-    sass: false,
+    css: false,
+    scss: false,
     javascript: false,
     react: false,
     nodejs: false,
@@ -20,11 +20,11 @@ function App() {
   });
 
   const handleSearch = (id, checked) => {
-    if (id === "html") {
-      setSearch({ ...search, html: checked });
+    if (id === "css") {
+      setSearch({ ...search, css: checked });
     }
-    else if (id === "sass") {
-      setSearch({ ...search, sass: checked });
+    else if (id === "scss") {
+      setSearch({ ...search, scss: checked });
     }
     else if (id === "javascript") {
       setSearch({ ...search, javascript: checked });
@@ -41,22 +41,22 @@ function App() {
   }
 
   let filteredData = data.filter((project) => {
-    if (search.html) {
-      return project.tags.includes("HTML");
+    if (search.css) {
+      return project.tags.includes("CSS");
     }
-    else if (search.sass) {
+    if (search.scss) {
       return project.tags.includes("SCSS");
     }
-    else if (search.javascript) {
+    if (search.javascript) {
       return project.tags.includes("Javascript");
     }
-    else if (search.react) {
+    if (search.react) {
       return project.tags.includes("React");
     }
-    else if (search.nodejs) {
+    if (search.nodejs) {
       return project.tags.includes("node.js");
     }
-    else if (search.sqlite) {
+    if (search.sqlite) {
       return project.tags.includes("sqlite");
     }
     else {

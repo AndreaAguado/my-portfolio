@@ -9,13 +9,13 @@ const Filters = (props) => {
     }
     return (
         <form className="projects_filter">
-            <label htmlFor="html">
-                <input onChange={handleChange} type="checkbox" name="tags" id="html" value="html" />
-                HTML
-            </label>
             <label htmlFor="css">
                 <input onChange={handleChange} type="checkbox" name="tags" id="css" value="css" />
-                CSS/SASS
+                CSS
+            </label>
+            <label htmlFor="scss">
+                <input onChange={handleChange} type="checkbox" name="tags" id="scss" value="scss" />
+                SCSS
             </label>
 
             <label htmlFor="javascript">
