@@ -9,7 +9,7 @@ const Main = (props) => {
     return (
         <main className="main">
             <AboutMe></AboutMe>
-            <Projects renderProjects={props.renderProjects}></Projects>
+            <Projects renderProjects={props.renderProjects} handleSearch={props.handleSearch}></Projects>
             <Tools></Tools>
             <Contact></Contact>
             <CvPdf></CvPdf>

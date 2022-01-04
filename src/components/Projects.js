@@ -5,7 +5,7 @@ import SectionWrapper from './SectionWrapper';
 const Projects = (props) => {
     return (
         <SectionWrapper id="projects" classname="projects" section_name="Proyectos">
-            <Filters></Filters>
+            <Filters handleSearch={props.handleSearch}></Filters>
             <ul className="projects_list">
                 {props.renderProjects()}
             </ul>
