@@ -40,25 +40,34 @@ function App() {
     }
   }
 
-  // let filteredData2 = data.map(project => {
-  //   console.log(project);
-  //   return project.tags.filter((tag) => {
-  //     console.log(tag.toLocaleLowerCase() === search);
-  //     return tag.toLocaleLowerCase() === search;
-  //   })
-  // })
+  let filteredData = data.filter((project) => {
+    if (search.html) {
+      return project.tags.includes("HTML");
+    }
+    else if (search.sass) {
+      return project.tags.includes("SCSS");
+    }
+    else if (search.javascript) {
+      return project.tags.includes("Javascript");
+    }
+    else if (search.react) {
+      return project.tags.includes("React");
+    }
+    else if (search.nodejs) {
+      return project.tags.includes("node.js");
+    }
+    else if (search.sqlite) {
+      return project.tags.includes("sqlite");
+    }
+    else {
+      return project;
+    }
 
-  // console.log(filteredData2);
-
-  // let filteredData = data.filter((project) => {
-  //   return project.tags.filter(tag => {
-  //     return tag.toLocaleLowerCase() === search.toLocaleLowerCase();
-  //   })
-  // })
-  // console.log(filteredData);
+  })
+  console.log(filteredData);
 
   const renderProjects = () => {
-    return data.map((project, index) => {
+    return filteredData.map((project, index) => {
       return (
         <li className="list_item" id={index} key={index}>
           <ProjectCard project={project}></ProjectCard>
