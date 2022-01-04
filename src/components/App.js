@@ -10,53 +10,47 @@ import { data } from '../data/data';
 
 
 function App() {
-  const [search, setSearch] = useState({
-    css: false,
-    scss: false,
-    javascript: false,
-    react: false,
-    nodejs: false,
-    sqlite: false
-  });
+  const [search, setSearch] = useState("");
 
-  const handleSearch = (id, checked) => {
+
+  const handleSearch = (id, value) => {
     if (id === "css") {
-      setSearch({ ...search, css: checked });
+      setSearch(value)
     }
     else if (id === "scss") {
-      setSearch({ ...search, scss: checked });
+      setSearch(value)
     }
     else if (id === "javascript") {
-      setSearch({ ...search, javascript: checked });
+      setSearch(value)
     }
     else if (id === "react") {
-      setSearch({ ...search, react: checked });
+      setSearch(value)
     }
     else if (id === "nodejs") {
-      setSearch({ ...search, nodejs: checked });
+      setSearch(value)
     }
     else if (id === "sqlite") {
-      setSearch({ ...search, sqlite: checked });
+      setSearch(value)
     }
   }
 
   let filteredData = data.filter((project) => {
-    if (search.css) {
+    if (search === "css") {
       return project.tags.includes("CSS");
     }
-    if (search.scss) {
+    if (search === "scss") {
       return project.tags.includes("SCSS");
     }
-    if (search.javascript) {
+    if (search === "javascript") {
       return project.tags.includes("Javascript");
     }
-    if (search.react) {
+    if (search === "react") {
       return project.tags.includes("React");
     }
-    if (search.nodejs) {
+    if (search === "nodejs") {
       return project.tags.includes("node.js");
     }
-    if (search.sqlite) {
+    if (search === "sqlite") {
       return project.tags.includes("sqlite");
     }
     else {
