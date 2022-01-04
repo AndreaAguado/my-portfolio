@@ -32,6 +32,9 @@ function App() {
     else if (id === "sqlite") {
       setSearch(value)
     }
+    else if (id === "all") {
+      setSearch(value)
+    }
   }
 
   let filteredData = data.filter((project) => {
@@ -52,6 +55,9 @@ function App() {
     }
     if (search === "sqlite") {
       return project.tags.includes("sqlite");
+    }
+    if (search === "all") {
+      return project;
     }
     else {
       return project;

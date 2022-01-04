@@ -33,7 +33,10 @@ const Filters = (props) => {
                 <input onChange={handleChange} type="radio" name="tags" id="sqlite" value="sqlite" />
                 SQLite
             </label>
-
+            <label htmlFor="all">
+                <input onChange={handleChange} type="radio" name="tags" id="all" value="all" />
+                Todos
+            </label>
         </form>
     )
 }
