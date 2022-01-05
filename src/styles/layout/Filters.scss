@@ -5,10 +5,23 @@
   font-family: "Zen Kaku Gothic Antique", sans-serif;
   font-weight: bold;
   display: flex;
+  @media all and (max-width: 768px) {
+    flex-direction: column;
+    align-items: center;
+  }
   &_icon {
     &:hover {
       filter: drop-shadow(1px 1px 6px black);
     }
+  }
+}
+.filter_tags_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  @media all and (min-width: 768px) {
+    flex-wrap: nowrap;
+    display: inline-block;
   }
 }
 label {
@@ -42,7 +55,7 @@ label {
     transform: translateY(0);
   }
   100% {
-    transform: translateY(30px);
+    transform: translateY(20px);
   }
 }
 

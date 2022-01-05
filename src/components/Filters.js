@@ -20,7 +20,7 @@ const Filters = (props) => {
         <>
             <form className="projects_filter">
                 <i onClick={handleFilter} className="fas fa-search projects_filter_icon"></i>
-                <div className={hidden ? "hidden" : "slide-animation"}>
+                <div className={hidden ? "hidden" : "slide-animation filter_tags_container"}>
                     <label htmlFor="css">
                         <input onChange={handleChange} type="radio" name="tags" id="css" value="css" />
                         CSS
