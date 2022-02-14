@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "./static/css/main.0fb230a7.chunk.css",
-    "main.js": "./static/js/main.dad23f9a.chunk.js",
-    "main.js.map": "./static/js/main.dad23f9a.chunk.js.map",
+    "main.js": "./static/js/main.39ec3ff0.chunk.js",
+    "main.js.map": "./static/js/main.39ec3ff0.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.7ad783a2.js",
     "runtime-main.js.map": "./static/js/runtime-main.7ad783a2.js.map",
     "static/js/2.f64872a5.chunk.js": "./static/js/2.f64872a5.chunk.js",
@@ -16,6 +16,7 @@
     "static/media/thumbnailEvInter1.c4f33311.JPG": "./static/media/thumbnailEvInter1.c4f33311.JPG",
     "static/media/thumbnailEvInter2.69417900.JPG": "./static/media/thumbnailEvInter2.69417900.JPG",
     "static/media/thumbnailEvInter3.67b159c0.JPG": "./static/media/thumbnailEvInter3.67b159c0.JPG",
+    "static/media/thumbnailGrogu.321f801b.JPG": "./static/media/thumbnailGrogu.321f801b.JPG",
     "static/media/thumbnailHNY.490cdc9f.JPG": "./static/media/thumbnailHNY.490cdc9f.JPG",
     "static/media/thumbnailHangmanGame.ee68e34f.JPG": "./static/media/thumbnailHangmanGame.ee68e34f.JPG",
     "static/media/thumbnailNetflix.613fe3af.JPG": "./static/media/thumbnailNetflix.613fe3af.JPG",
@@ -28,6 +29,6 @@
     "static/js/runtime-main.7ad783a2.js",
     "static/js/2.f64872a5.chunk.js",
     "static/css/main.0fb230a7.chunk.css",
-    "static/js/main.dad23f9a.chunk.js"
+    "static/js/main.39ec3ff0.chunk.js"
   ]
 }
