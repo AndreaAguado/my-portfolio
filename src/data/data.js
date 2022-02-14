@@ -10,6 +10,7 @@ import preview9 from './images/thumbnailProy3_4.JPG';
 import preview10 from './images/thumbnailHangmanGame.JPG';
 import preview11 from './images/thumbnailNetflix.JPG';
 import preview12 from './images/thumbnailHNY.JPG';
+import preview13 from './images/thumbnailGrogu.JPG';
 
 export const data = [
     {
@@ -181,6 +182,21 @@ export const data = [
             "Javascript",
         ],
         "preview": preview12,
+        "finished": true
+    },
+    {
+        "id": 13,
+        "title": "¡Cuidado con Grogu!",
+        "title_alt": "¡Cuidado con Grogu!",
+        "githubRepo": "https://github.com/AndreaAguado/Cuidado-con-Grogu",
+        "pageLink": "https://andreaaguado.github.io/Cuidado-con-Grogu/",
+        "tags": [
+            "HTML",
+            "SCSS",
+            "Javascript",
+            "React"
+        ],
+        "preview": preview13,
         "finished": true
     }
 ]
