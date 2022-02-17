@@ -11,6 +11,7 @@ import preview10 from './images/thumbnailHangmanGame.JPG';
 import preview11 from './images/thumbnailNetflix.JPG';
 import preview12 from './images/thumbnailHNY.JPG';
 import preview13 from './images/thumbnailGrogu.JPG';
+import preview14 from './images/thumbnailBooks.JPG';
 
 export const data = [
     {
@@ -197,6 +198,24 @@ export const data = [
             "React"
         ],
         "preview": preview13,
+        "finished": true
+    },
+    {
+        "id": 14,
+        "title": "Book Collection",
+        "title_alt": "Book Collection",
+        "githubRepo": "https://github.com/AndreaAguado/book-collection",
+        "pageLink": "https://collection-of-books.herokuapp.com",
+        "tags": [
+            "HTML",
+            "SCSS",
+            "Javascript",
+            "React",
+            "node.js",
+            "express.js",
+            "sqlite"
+        ],
+        "preview": preview14,
         "finished": true
     }
 ]
