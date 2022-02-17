@@ -1,4 +1,4 @@
-import '../styles/layout/Filters.scss';
+import styles from '../styles/layout/Filters.module.scss';
 import { useState } from 'react';
 
 const Filters = (props) => {
@@ -18,9 +18,10 @@ const Filters = (props) => {
 
     return (
         <>
-            <form className="projects_filter">
+            <form className={styles.projects_filter}>
                 <i onClick={handleFilter} className="fas fa-search projects_filter_icon"></i>
-                <div className={hidden ? "hidden" : "slide-animation filter_tags_container"}>
+                <div className={hidden ? `${styles.hidden}` :
+                    `${styles.slide_animation} ${styles.filter_tags_container}`}>
                     <label htmlFor="css">
                         <input onChange={handleChange} type="radio" name="tags" id="css" value="css" />
                         CSS
